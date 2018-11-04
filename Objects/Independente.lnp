@@ -1,0 +1,3 @@
+".\Objects\main.obj" 
+TO ".\Objects\Independente" 
+PRINT(".\Listings\Independente.m51") CODE( 0X0000-0X07FF )
