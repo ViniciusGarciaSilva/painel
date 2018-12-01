@@ -19,31 +19,33 @@ CPU DLL:         S8051.DLL V3.122.0.0
 Dialog DLL:      DP51.DLL V2.66.0.0 
 <h2>Project:</h2>
 D:\Destkop\Documentos\Pai\Independente\Independente.uvproj
-Project File Date:  11/03/2018
+Project File Date:  11/09/2018
 
 <h2>Output:</h2>
 Build target 'Target 1'
 compiling main.c...
-main.c(204): warning C280: 'delay_time': unreferenced local variable
-main.c(204): warning C280: 'repeat': unreferenced local variable
-main.c(215): warning C280: 'delay_time': unreferenced local variable
-main.c(215): warning C280: 'repeat': unreferenced local variable
-main.c(226): warning C280: 'delay_time': unreferenced local variable
-main.c(226): warning C280: 'repeat': unreferenced local variable
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_WAIT?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_BLINK?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LOAD?MAIN
+    SEGMENT: ?PR?_HITANDTURN?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_UNLOAD?MAIN
+    SEGMENT: ?PR?_RUNANDBACK?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_REVERSELOAD?MAIN
-Program Size: data=41.0 xdata=0 code=1123
+    SEGMENT: ?PR?_LOADUNLOAD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SEND_SIGNAL?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SIGNAL?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BEGIN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_FINISH?MAIN
+Program Size: data=51.0 xdata=0 code=1861
 creating hex file from ".\Objects\Independente"...
-".\Objects\Independente" - 0 Error(s), 11 Warning(s).
+".\Objects\Independente" - 0 Error(s), 9 Warning(s).
 Build Time Elapsed:  00:00:00
 </pre>
 </body>
